@@ -1,0 +1,246 @@
+ @import url(https://fonts.googleapis.com/css?family=Roboto:300|Open+Sans:600);
+
+#popUp {
+  top : 0;
+  width : 100%;
+  background-color : gray;
+  height : 100%;
+  position : absolute; 
+  z-index : 0;
+  left : 0; 
+  display : none;
+}
+
+#popUp2 {
+  top : 0;
+  width : 100%;
+  background-color : gray;
+  min-height : 400px; 
+  position : absolute; 
+  z-index : 0;
+  left : 0; 
+  display : none;
+  border : black solid 5px;
+}
+
+#login-info {
+  width : 300px;
+  height : 100%;
+  margin : 0 auto;
+  text-align : center;
+  padding-top : 100px;
+}
+#login-info-2 {
+  margin-top : 44px; 
+  width : 100%;
+  height : 2200px;
+  margin : 0 auto;
+  display : inline-block;
+  position: relative;
+  text-align : center;
+  padding-top : 50px;
+}
+
+#login-info-3 { 
+  width : 100%;
+  height : 1000px;
+  margin : 0 auto;
+  display : inline-block;
+  position: relative;
+  text-align : center; 
+  background-color : gray;
+}
+
+.login-input {
+  margin-top : 5px;
+  height : 25px;
+}
+  
+
+#submit-facebook {
+  background-color : #3b5998;
+  width : 200px;
+  height : 35px;
+  margin : auto;
+  margin-top : 20px;
+}
+
+#submit-facebook a {
+  float : left;
+  margin-left : 10px;
+  line-height : 0; 
+  margin-top : 2px;
+}
+
+#submit-facebook p {
+  margin-top : 20px;
+}
+
+#facebook { 
+  line-height : 0px;
+}
+
+#closeBox {
+  width : 22px;
+  height : 22px;
+  float : right;
+  margin-top : -40px;
+  margin-right : 10px;
+  display : inline-block;
+}
+
+#closeBox h2 {
+  font-family : Roboto;
+  color : white;
+  margin-top : 10px;
+  margin-left : 3px
+}
+
+#submit-button {
+  background-color : red;
+  width : 75px;
+  height : 30px;
+  border : white solid 1px; 
+  margin : 0 auto;
+  margin-top : 20px;
+  margin-bottom : 20px;
+}
+
+#submit-button p {
+  color : white;
+  line-height : 0px;   
+}
+
+#submit-article {
+  background-color : blue;
+  width : 75px;
+  height : 30px;
+  border : white solid 1px; 
+  margin : 0 auto;
+  margin-top : 20px;
+  margin-bottom : 20px;
+}
+
+#submit-article p {
+  color : white;
+  line-height : 0px;   
+} 
+
+#navBar {
+  width : 100%;
+  background-color : black;
+  z-index : 50;
+  position : fixed;
+  display : inline;
+  top : 0;
+  left : 0;
+  height : 65px;
+}
+
+#logo {
+  float : left;
+  padding-top : 5px;
+  margin-left : 157px;
+} 
+
+#logoCenter {
+ display : block;
+ margin : auto;
+}
+
+#login {
+  margin-top : 10px;
+  float : right;
+  padding-right : 10px;
+  margin-right : 160px;
+}
+
+#create {
+  float : right;
+  padding-right : 10px;
+}
+
+#mainContainer {
+  max-width : 900px;
+  min-width : 300px;
+  margin : 0 auto; 
+  min-height : 1200px;
+  position : relative;
+  display : block;
+  top : 40px;
+  background-color : gray;
+  padding-right : 15px;
+  padding-left : 15px;
+}
+
+.article {
+  padding-top : 18px;
+}
+
+.article hr {
+  border : 2px solid black;
+  background: #999;
+  line-height : 0; 
+}
+
+.article-img {
+  width : 100%;
+} 
+
+textarea { 
+  width : 20rem;
+  height : 5rem;
+  margin-top : 5px;
+}
+  
+p {
+  font-family : Roboto;
+  font-size : 1rem;
+  color : white; 
+}
+
+a {
+  text-decoration : none;
+} 
+
+h2 {
+  font-family : Roboto;
+  color : black; 
+  font-size : 1.5rem;
+  line-height : 0px;
+}
+
+h3 {
+  font-family : Roboto;
+  color : white;
+  font-size : 1.25rem;
+  line-height : 0px;
+}
+
+h4 {
+  font-family : Roboto;
+  color : white;
+  font-size: .75rem;
+  line-height : 0px;
+  margin-left : 1px;
+}
+
+hr {
+   border: 0;
+   border-bottom: 1px dashed #ccc;
+  background: #999;
+}
+
+th {
+  font-family: Roboto;
+  color : black;
+}
+
+td {
+  font-family: Roboto;
+  color : black;
+}
+
+
+
+

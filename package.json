@@ -1,0 +1,30 @@
+{
+  "name": "b-log",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onagus/b-log.git"
+  },
+  "keywords": [
+    "blogger",
+    "cms"
+  ],
+  "author": "Toshi Sugano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onagus/b-log/issues"
+  },
+  "homepage": "https://github.com/onagus/b-log#readme",
+  "devDependencies": {
+    "backbone": "^1.3.3",
+    "firebase": "^3.0.3",
+    "gulp": "^3.9.1",
+    "jquery": "^2.2.4",
+    "underscore": "^1.8.3"
+  }
+}
