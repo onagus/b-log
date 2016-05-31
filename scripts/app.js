@@ -67,8 +67,9 @@ tsHtml.htmlTable.prototype.rtn = function(obj){
 //**---- Global Functions ----** 
 var tsFunction = {
   init : function(){ 
-    $('#mainContainer').empty();
     //Init article container to empty
+    $('#mainContainer').empty();
+    //Resets readArticle 
     tsGlobal.readArticle = [];
     //Init Firebase
     fireBase.read();   
@@ -182,7 +183,7 @@ var tsFunction = {
   },
   //Captures data from login input fields 
   loginData : function() {
-    /*
+    
     $.ajax({
         type: 'POST',
         url: 'login.php',
@@ -199,7 +200,7 @@ var tsFunction = {
             console.log(xhr);
         }
     });
-    */
+    
     var key = tsGlobal.loginData.username;
     var value = tsGlobal.loginData.password;
     if (tsGlobal.loginSecret[key] === value){ 
